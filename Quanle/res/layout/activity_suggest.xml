@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.quanle.healthmanager.widget.NavigationBar
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navbar_height"
+        android:layout_alignParentTop="true" >
+    </com.quanle.healthmanager.widget.NavigationBar>
+
+    <EditText
+        android:id="@+id/suggestEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/navbar"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selecter_edittext_bg"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="@string/siggest_info"
+        android:inputType="textMultiLine"
+        android:textSize="@dimen/middlefontsize" />
+
+    <EditText
+        android:id="@+id/qqEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/suggestEditText"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selecter_edittext_bg"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="@string/siggest_qq"
+        android:inputType="numberSigned"
+        android:maxLength="18"
+        android:textSize="@dimen/middlefontsize" />
+
+</RelativeLayout>

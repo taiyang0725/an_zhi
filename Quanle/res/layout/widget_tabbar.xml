@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lyToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#fff"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <com.quanle.healthmanager.widget.TabbarItem
+            android:id="@+id/TabbarItem01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </com.quanle.healthmanager.widget.TabbarItem>
+
+        <com.quanle.healthmanager.widget.TabbarItem
+            android:id="@+id/TabbarItem02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </com.quanle.healthmanager.widget.TabbarItem>
+
+        <com.quanle.healthmanager.widget.TabbarItem
+            android:id="@+id/TabbarItem03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </com.quanle.healthmanager.widget.TabbarItem>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#ddd" />
+
+    <View
+        android:id="@+id/viewSelect"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentTop="true"
+        android:background="#ddd"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.quanle.healthmanager.widget.NavigationBar
+        android:id="@+id/nbNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.quanle.healthmanager.widget.NavigationBar>
+
+    <ListView
+        android:id="@+id/noteListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/nbNote"
+        android:layout_centerHorizontal="true"
+        android:background="#fff" >
+    </ListView>
+
+</RelativeLayout>

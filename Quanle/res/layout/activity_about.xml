@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.quanle.healthmanager.widget.NavigationBar
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navbar_height"
+        android:layout_alignParentTop="true" >
+    </com.quanle.healthmanager.widget.NavigationBar>
+
+    <ImageView
+        android:id="@+id/aboutImageVew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/navbar"
+        android:src="@drawable/about" />
+
+    <TextView
+        android:id="@+id/verTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutImageVew"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/app_ver"
+        android:textColor="@color/gary"
+        android:textSize="@dimen/smallfontsize" />
+
+    <TextView
+        android:id="@+id/copyrightTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verTextview"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_copyright"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/gary" />
+
+</RelativeLayout>

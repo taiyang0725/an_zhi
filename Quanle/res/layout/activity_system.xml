@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.quanle.healthmanager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_activity"
+    android:orientation="vertical"
+    tools:context=".SystemActivity" >
+
+    <com.quanle.healthmanager.widget.NavigationBar
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navbar_height" >
+    </com.quanle.healthmanager.widget.NavigationBar>
+
+    <com.quanle.healthmanager.widget.Menu
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

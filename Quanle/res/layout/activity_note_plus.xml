@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.quanle.healthmanager.widget.NavigationBar
+        android:id="@+id/nbNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.quanle.healthmanager.widget.NavigationBar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/nbNote"
+        android:background="#333333" >
+
+        <RelativeLayout
+            android:id="@+id/lay_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:visibility="visible" >
+
+            <ListView
+                android:id="@+id/noteListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="#fff" >
+            </ListView>
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/lay_edit_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/lay_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+</RelativeLayout>

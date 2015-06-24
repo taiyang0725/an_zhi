@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">全乐健康</string>
+    <string name="app_copyright">陕西圣西朗德实业有限公司</string>
+    <string name="app_ver">版本：v%1$s</string>
+    <string name="app_toast_exit">再按一次退出程序</string>
+    <string name="app_toast_nosupportsso">您的系统不支持快捷登陆</string>
+    <string name="app_toast_nosdcard">没有安装SD存储卡，无法使用此功能</string>
+    <string name="app_toast_unknowerr">未知错误，请再试，如果问题依然存在，请与我们联系</string>
+    <string name="toast_face_fail">头像上传失败</string>
+    <string name="alert_message_image_uploading">正在上传图片...</string>
+    <string name="btn_submit">提交</string>
+    <string name="btn_post">发布</string>
+    <string name="btn_reply">回复</string>
+    <string name="btn_clipimage">裁切图像</string>
+    <string name="slide_skip">跳过</string>
+    <string name="slide_enter">进入</string>
+    <string name="select_sex_title">请选择性别</string>
+    <string name="select_sex_boy">男</string>
+    <string name="select_sex_girl">女</string>
+    <string name="select_age_title">请选择年龄段</string>
+    <string name="select_date_title">选择日期</string>
+    <string name="date_format">%1$s年%2$s月%3$s日</string>
+    <string name="date_year">年</string>
+    <string name="date_mouth">月</string>
+    <string name="date_day">日</string>
+    <string name="note_plus">添加</string>
+    <string name="note_plus_save">完成</string>
+    <string name="note_plus_edit">编辑</string>
+
+    <string-array name="select_age_title">
+        <item>婴儿段</item>
+        <item>幼儿段</item>
+        <item>青少段</item>
+        <item>壮年段</item>
+        <item>中年段</item>
+        <item>老年段</item>
+    </string-array>
+    <string-array name="select_age_tip">
+        <item>0-3岁</item>
+        <item>4-6岁</item>
+        <item>7-18岁</item>
+        <item>19-40岁</item>
+        <item>41-65岁</item>
+        <item>65岁以上</item>
+    </string-array>
+
+    <string name="error_unlawful_enter">非法使用，应用将自动退出</string>
+    <string name="alert_message_warning">提示</string>
+    <string name="alert_message_ok">确定</string>
+    <string name="alert_message_cancel">取消</string>
+    <string name="alert_message_yes">是</string>
+    <string name="alert_message_no">否</string>
+    <string name="alert_message_update">发现新版本 v%1$s</string>
+    <string name="alert_message_disconnection_network">网络无法连接</string>
+    <string name="alert_message_disconnection_server">额！服务器又偷懒了~</string>
+    <string name="alert_message_update_downloading">正在下载 %1$s/%2$s(%3$s%%)...</string>
+    <string name="alert_message_loadding">数据加载中，请稍候</string>
+    <string name="alert_message_update_err_filenull">文件获取失败</string>
+    <string name="alert_message_fourm_submit">正在保存，请稍等</string>
+    <string name="alert_message_noland">您还没有登陆，现在登陆吗？</string>
+    <string name="login_title">会员登陆</string>
+    <string name="login_reg">注册新用户</string>
+    <string name="login_forgetpass">忘记密码</string>
+    <string name="login_btn_login">登陆</string>
+    <string name="login_hint_usrid">登陆邮箱</string>
+    <string name="login_hint_usrpass">登陆密码</string>
+    <string name="login_toast_usrid_null">请输入登陆用户名</string>
+    <string name="login_toast_usrpass_null">请输入登陆密码</string>
+    <string name="login_loading">正在登陆，请稍等</string>
+    <string name="start_autologin_finish">自动登陆</string>
+    <string name="reg_hint_usrid">请输入邮箱作为登陆帐号</string>
+    <string name="reg_hint_usrpass">登陆密码</string>
+    <string name="reg_hint_usrpass2">再次输入登陆密码</string>
+    <string name="reg_hint_usrname">真实姓名</string>
+    <string name="reg_hint_sex">性别</string>
+    <string name="reg_hint_sexmale">男</string>
+    <string name="reg_hint_sexfamale">女</string>
+    <string name="reg_toast_usrid_null">请输入邮箱</string>
+    <string name="reg_toast_usrid_length">用户名长度必须在4-12位之间</string>
+    <string name="reg_toast_usrid_format">邮箱格式不正确</string>
+    <string name="reg_toast_usrpass_null">请设置登陆密码</string>
+    <string name="reg_toast_usrpass_length">密码长度必须在6-18位之间</string>
+    <string name="reg_toast_usrpass_different">两次输入密码必须一致</string>
+    <string name="reg_toast_usrname_null">请输入真实姓名</string>
+    <string name="reg_loading">正在注册，请稍等</string>
+    <string name="reg_btn_reg">提交注册</string>
+    <string name="reg_login">已有帐号登陆</string>
+    <string name="changepass_hint_usrpass">原登陆密码</string>
+    <string name="changepass_hint_usrpass1">新登陆密码</string>
+    <string name="changepass_hint_usrpass2">再次输入登陆密码</string>
+    <string name="changepass_toast_usrpass_null">请输入原登陆密码</string>
+    <string name="changepass_toast_usrpass1_null">请设置新的登陆密码</string>
+    <string name="changepass_toast_usrpass_different">两次输入密码必须一致</string>
+    <string name="changepass_toast_usrpass1_length">密码长度必须在6-18位之间</string>
+    <string name="reg_quickreg">一键快速注册</string>
+    <string name="reg_quicklogin">一键快速登陆</string>
+    <string name="changeinfo_usrname">姓名</string>
+    <string name="changeinfo_gender">性别</string>
+    <string name="changeinfo_birth">生日</string>
+    <string name="changeinfo_idcard">身份证</string>
+    <string name="changeinfo_toast_usrname_null">请输入姓名</string>
+    <string name="changeinfo_toast_gender_null">请选择性别</string>
+    <string name="changeinfo_toast_idcard_null">请输入身份证号</string>
+    <string name="changeinfo_toast_idcard_format">身份证号不合法</string>
+    <string name="changeinfo_toast_birth_null">请选择生日</string>
+
+    <string-array name="main_toolbar_item_title">
+        <item>大厅</item>
+        <item>记录</item>
+        <item>乐圈</item>
+        <item>预约</item>
+        <item>商城</item>
+        <item>我</item>
+    </string-array>
+    <string-array name="main_nav_title">
+        <item>全乐健康</item>
+        <item>健康记录</item>
+        <item>乐圈</item>
+        <item>预约挂号</item>
+        <item>健康商城</item>
+        <item>个人中心</item>
+    </string-array>
+
+    <string name="reg_title">注册新用户</string>
+    <string name="main_btn_logout">注销</string>
+    <string name="main_navbar_preson_title">个人中心</string>
+    <string name="main_preson_usrid">用户名</string>
+    <string name="main_preson_usrname">真实姓名</string>
+    <string name="main_preson_usrsex">性别</string>
+    <string name="main_cache_value">当前缓存 %1$s</string>
+    <string name="main_cache_null">当前无缓存，无需清理</string>
+    <string name="siggest_info">我们的成长离不开您的关怀，如果在使用的过程中发现了什么问题，或者有什么好的建议和意见，请给我们留言噢~！</string>
+    <string name="siggest_qq">请输入您的QQ号码</string>
+    <string name="main_update_value">点击更新到 v%1$s</string>
+    <string name="main_update_null">最新版本，无需更新</string>
+    <string name="main_update_fail">获取新版本失败</string>
+    <string name="main_guest_logintip">登陆会员，享受更多服务</string>
+    <string name="main_btn_login">登陆</string>
+    <string name="main_btn_reg">注册新用户</string>
+    <string name="main_alert_logout">用户注销</string>
+    <string name="main_alert_message_logout">是否退出当前用户？</string>
+    <string name="main_menu_changecity">切换城市</string>
+    <string name="main_menu_mail">绑定邮箱</string>
+    <string name="main_menu_changepassword">修改登陆密码</string>
+    <string name="main_menu_about">关于全乐</string>
+    <string name="main_menu_suggest">意见建议</string>
+    <string name="main_menu_system">系统设置</string>
+    <string name="main_menu_cache">清理缓存</string>
+    <string name="main_menu_age">切换年龄段</string>
+    <string name="main_menu_update">版本更新</string>
+    <string name="main_menu_changeinfo">补充/修改个人资料</string>
+    <string name="main_menu_family">关心的人</string>
+    <string name="main_menu_tag">健康标签</string>
+    <string name="main_btn_gallery">从图库选择</string>
+    <string name="main_btn_camar">拍照</string>
+    <string name="fourm_btn_create">创建圈子</string>
+    <string name="fourm_btn_postcreate">发表主题</string>
+    <string name="fourmedit_title">圈名</string>
+    <string name="fourmedit_intro">简介</string>
+    <string name="fourmedit_icon">图标</string>
+    <string name="fourmedit_hint_title">20个汉字以内</string>
+    <string name="fourmedit_hint_intro">简要说明</string>
+    <string name="fourmedit_toast_title">您忘记给圈子起名字了</string>
+    <string name="fourm_title_postcreate">发表新主题</string>
+    <string name="fourm_post_title">想个吸引人的好标题</string>
+    <string name="fourm_post_intro">内容</string>
+    <string name="fourm_toast_intro">您还什么也没写呢</string>
+    <string name="fourm_toast_title">标题还没写</string>
+    <string name="fourmedit_hint_reply">快捷回复</string>
+    <string name="fourm_posttime_never">刚刚</string>
+
+    <string-array name="fourm_floor">
+        <item>楼主</item>
+        <item>沙发</item>
+        <item>板凳</item>
+        <item>地板</item>
+    </string-array>
+
+    <string name="fourm_floor">%1$s楼</string>
+
+</resources>

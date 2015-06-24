@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.quanle.healthmanager.widget.NavigationBar
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navbar_height" >
+    </com.quanle.healthmanager.widget.NavigationBar>
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="@string/fourm_post_title"
+        android:inputType="text"
+        android:maxLength="50"
+        android:textSize="@dimen/middlefontsize" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#dedede" />
+
+    <EditText
+        android:id="@+id/introEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="0.82"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="@string/fourm_post_intro"
+        android:inputType="textMultiLine"
+        android:textSize="@dimen/middlefontsize" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#dedede"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/picImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/camar" />
+        
+    </LinearLayout>
+
+</LinearLayout>
